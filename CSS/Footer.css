@@ -13,6 +13,7 @@ Footer{
     margin-top: 5%;
     padding: 5%;
     background-color: hsl(240, 10%, 16%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     @media(min-width: 769px) {
         flex-direction: row;
@@ -37,15 +38,15 @@ Footer{
 }
 .links-1 ul li, .links-2 ul li, .links-3 ul li{
     list-style: none;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     @media(min-width: 769px) {
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 }
 .links-1 ul li a, .links-2 ul li a, .links-3 ul li a{
     text-decoration: none;
     color: hsl(0, 1%, 66%);
-    font-size: 16px;
+    font-size: 17px;
 
     @media(min-width: 769px) {
         font-size: 18px;
@@ -56,6 +57,10 @@ Footer{
 .links-1 ul li a:hover, .links-2 ul li a:hover, .links-3 ul li a:hover{
     color: hsl(356, 100%, 66%);
 }
-.product{
+.product, .Company, .Connect{
+    margin-bottom: 5%;
     color: hsl(0, 0%, 100%);
+    @media(min-width: 769px) {
+        margin-bottom: 10%;
+    }
 }

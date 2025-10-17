@@ -17,7 +17,7 @@
 .section-2-container{
     width: 100%;
     display: block;
-    background-image: url(images\bg-pattern-circles.svg);
+    background-image: url(images/bg-pattern-circles.svg);
     justify-content: center;
     align-items: center;
     max-height: 75vh;
@@ -31,6 +31,7 @@
     width: 100%;
     position: relative;
     top: -25vh;
+    object-fit: cover;
     @media(min-width: 769px) {
         top: -15vh;
     }

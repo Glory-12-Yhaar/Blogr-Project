@@ -58,6 +58,7 @@
 }
 .design-m-img img{
     width: 100%;
+    object-fit: cover;
 }
 .section-1-text{
     display: block;
@@ -130,5 +131,6 @@
 }
 .design-d-img img{
     width: 140%;
+    object-fit: cover;
     
 }

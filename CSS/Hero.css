@@ -8,7 +8,7 @@ body{
 }
 .Hero{
     width: 100%;
-    background: url(images/bg-pattern-intro-desktop.svg), linear-gradient(to left, hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+    background: linear-gradient(to left, hsl(353, 100%, 62%), hsl(13, 100%, 72%));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,6 +52,7 @@ body{
 .menu-icon img{
     width: 50%;
     height: 40%;
+    object-fit: cover;
 }
 .start-up{
     display: none;
