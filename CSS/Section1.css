@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1-container{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media(min-width: 769px) {
+        flex-direction: row;
+        align-items: normal;
+        overflow-x: hidden;
+    }
+}
+
+.section-1-head{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+    color: hsl(0, 4%, 31%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+    @media(min-width: 769px) {
+        margin: 4%;
+        width: 100%;
+        position: relative;
+        right: -17vw;
+        top: -14vh;
+        
+    }
+}
+.design{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media(min-width: 769px) {
+        padding: 2%;
+        align-items: normal;
+    }
+}
+.design-m-img{
+    padding: 2%;
+    display: flex;
+    width: 100%;
+
+    @media(min-width: 769px) {
+        display: none;
+    }
+}
+.design-m-img img{
+    width: 100%;
+}
+.section-1-text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50%;
+
+    @media(min-width: 769px) {
+        text-align: left;
+        width: 100%;
+        order: 1;
+        margin-bottom: 0;
+    }
+}
+.intro, .robust{
+    width: 90%;
+    @media(min-width: 769px) {
+        width: 100%;
+        position: relative;
+        top: -10vh;
+    }
+}
+
+.robust{
+    @media(min-width: 769px) {
+    margin-top: 10%;
+    }
+}
+.intro h2, .robust h2{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+    color: hsl(0, 4%, 31%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    @media(min-width: 769px) {
+        margin: 4%;
+        margin-left: 0;
+        text-align: left;
+        
+    }
+}
+.intro p, .robust p{
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+    color: hsl(208, 51%, 18%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    @media(min-width: 769px) {
+        margin: 0;
+        text-align: left;
+        line-height: 1.8em;
+    }
+}
+.design-d-img{
+    display: none;
+
+    @media(min-width: 769px) {
+        display: flex;
+        width: 100%;
+        order: 2;
+        position: relative;
+        right: -5vw;
+    }
+}
+.design-d-img img{
+    width: 140%;
+    
+}
